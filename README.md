@@ -59,28 +59,29 @@ The project is developed as part of an **MSc Data Science academic project** and
    - Live web application deployment
 
 ---
-
 ## 📁 Project Structure
+
+```text
 air_quality_project/
 │
 ├── data/
-│   ├── raw/                # Raw datasets
-│   └── processed/          # Cleaned & feature-ready data
+│   ├── raw/                  # Raw datasets
+│   └── processed/            # Cleaned & feature-ready data
 │
 ├── notebooks/
 │   ├── 01-data-ingest.ipynb
 │   └── 02_mumbai_aqi_eda.ipynb
 │
 ├── src/
-│   ├── data/               # Data preparation scripts
-│   ├── features/           # Feature engineering
-│   └── models/             # Model training & evaluation
+│   ├── data/                 # Data preparation scripts
+│   ├── features/             # Feature engineering
+│   └── models/               # Model training & evaluation
 │
 ├── deployments/
 │   └── streamlit/
-│       └── app.py          # Streamlit dashboard
+│       └── app.py            # Streamlit dashboard
 │
-├── models/                 # Trained model files
+├── models/                   # Trained model files
 ├── requirements.txt
 └── README.md
 ---
